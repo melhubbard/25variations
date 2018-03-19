@@ -1,0 +1,365 @@
+/*Level 3.1 */
+.level31{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding-top: 50px;
+    padding-right:80px;
+    padding-left:80px;
+    padding-bottom: 50px;
+}
+
+/*Level 3.2 */
+.level32{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 5px;
+    padding-right:5px;
+    padding-left:5px;
+    padding-bottom: 5px;
+    border-style:dotted;
+}
+
+
+.level322{
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+/*Level 3.3 */
+
+.level33{
+    margin-top: 600px;
+    margin-right: 100px;
+    margin-left: 600px;
+    margin-bottom: 100px;
+}
+
+.level331{
+    margin-top: 200px;
+    margin-right: 600px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.level332{
+    margin-top: 500px;
+    margin-right: 100px;
+    margin-left: 600px;
+    margin-bottom: 100px;
+}
+
+.level333{
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+.level334{
+    margin-top: 70px;
+    margin-right: 700px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+
+/*Level 3.4 */
+
+section{
+    margin: 0 1.5% 24px 1.5%;
+}
+
+.a{
+    float: left;
+    width: 30%;
+}
+
+.b{
+    float: left;
+    width: 30%;
+}
+
+.c{
+    float:left;
+    width: 30%;
+}
+
+
+/*Level 3.5 */
+
+section {
+    margin-top: 70px;
+    margin-right: 700px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    border-style: dashed;
+}
+
+p.test {
+    margin-top: 100px;
+    margin-right: 1000px;
+    margin-left: 700px;
+    margin-bottom: 100px; 
+}
+
+/*Level 4.1 */
+
+span.title{
+    background-color:aliceblue;
+    display:inline-block;
+}
+
+p.d {
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -1px;
+    text-align: right;
+    line-height: 1.6;
+    font-weight:bold;
+}
+
+p.e{
+    color:mediumvioletred;
+    text-transform: uppercase;
+}
+
+/*Level 4.2 */
+
+div.body{
+    margin-top: 10px;
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-bottom: 10px;
+    font-style: oblique;
+    font-size: 50px;
+    text-align:center;
+    color: whitesmoke;
+}
+
+body.level42{
+    background-color: navy;
+}
+
+/*Level 4.3 */
+
+body.level43{
+    background-color: black;
+}
+
+p.f{
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-style: oblique;
+    font-size: 15px;
+    text-align:center;
+    color: black;
+    border-style: groove;
+    background-color: maroon;
+}
+
+/*Level 4.4 */
+
+.level44{
+    letter-spacing: 10px;
+    text-align:center;
+    font-family: monospace;
+    color:hotpink
+}
+
+div.level441 {
+    line-height: 200%;
+    font-family: cursive;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 400px;
+    margin-bottom:400;
+    color:pink;
+}
+
+/*Level 4.5 */
+
+.level45{
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-align:right;
+    color: yellow;
+    background-color: lightblue;
+    line-height: 80%;
+    font-family: sans-serif;
+    
+}
+
+.level451{
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-align:left;
+    color: yellow;
+    background-color: lightblue;
+    line-height: 80%;
+    font-family: sans-serif;
+}
+
+
+/*Level 5.1 */
+
+@keyframes five {
+    from {background-color: hotpink;}
+    to {background-color: blue;}
+}
+
+.level511 {
+    width: 700px;
+    height: 500px;
+    background-color: red;
+    animation-name: five;
+    animation-duration: 30s;
+    text-align:center;
+    font-family: serif;
+}
+
+.level51{
+    background-color: hotpink;
+    font-family:serif;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+/*Level 5.2 */
+
+.level52{
+    background-color: hotpink;
+    font-family:serif;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+@keyframes fivetwo {
+    0%   {background-color: hotpink;}
+    25%  {background-color: blue;}
+    50%  {background-color: yellow;}
+    100% {background-color: orangered;}
+}
+
+.level521 {
+    width: 700px;
+    height: 500px;
+    background-color: red;
+    animation-name: fivetwo;
+    animation-duration: 30s;
+    text-align: center;
+    font-family:sans-serif;
+}
+
+/*Level 5.3 */
+
+@keyframes fivethree {
+    0%   {left:0px; right:0px;}
+    25%  {left:200px; right:0px;}
+    50%  {left:200px; right:200px;}
+    75%  {left:0px; right:200px;}
+    100% {left:0px; right:0px;}
+}
+
+.level531 {
+    width: 700px;
+    height: 500px;
+    position: relative;
+    background-color: red;
+    animation-name: fivethree;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+}
+
+.level53{
+    background-color: hotpink;
+    font-family:serif;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: monospace;
+}
+
+/*Level 5.4 */
+
+@keyframes fivefour {
+    0%   {top:0px; bottom:0px;}
+    25%  {top:200px; bottom:0px;}
+    50%  {top:200px; bottom:200px;}
+    75%  {top:0px; bottom:200px;}
+    100% {top:0px; bottom:0px;}
+}
+
+.level541 {
+    width: 700px;
+    height: 770px;
+    position: relative;
+    background-color: red;
+    animation-name: fivefour;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+}
+
+.level54{
+    background-color: hotpink;
+    font-family:serif;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: monospace;
+}
+
+/*Level 5.5 */
+
+@keyframes fivefive {
+    0%   {background-color:hotpink; left:0px; top:0px;}
+    25%  {background-color:blue; left:200px; top:0px;}
+    50%  {background-color:yellow; left:200px; top:200px;}
+    75%  {background-color:orange; left:0px; top:200px;}
+    100% {background-color:hotpink; left:0px; top:0px;}
+    
+}
+
+
+.level551 {
+    width: 700px;
+    height: 1070px;
+    position: relative;
+    background-color: red;
+    animation-name: fivefive;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+}
+
+.level55{
+    background-color: hotpink;
+    font-family:serif;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: cursive;
+}
+
+
