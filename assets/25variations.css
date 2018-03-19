@@ -343,7 +343,7 @@ div.level441 {
 
 .level551 {
     width: 700px;
-    height: 1070px;
+    height: 750px;
     position: relative;
     background-color: red;
     animation-name: fivefive;
@@ -359,7 +359,25 @@ div.level441 {
     margin-left: 50px;
     margin-bottom: 10px;
     text-align: center;
-    font-family: cursive;
+    font-family: monospace;
 }
+
+/*Level NAV */
+
+.nav1{
+    text-align:center;
+    font-family: monospace;
+}
+
+
+.nav2{
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+
+
+
 
 
