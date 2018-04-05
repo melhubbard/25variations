@@ -1,0 +1,51 @@
+div {
+  clear: left;
+}
+
+section {
+  text-align: center;
+  float: left;
+  width: 30%;
+  height: 50%;
+  border: solid;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-right: 12%px;
+  margin-left: 12%;
+}
+
+body {
+    background-color: orange;
+}
+
+@media only screen and (max-width: 1050px) {
+    body {
+        background-color: lightgray;
+    }
+
+@media only screen and (max-width: 1050px) {
+    .one {
+        background-color: lightblue;
+    }
+    
+@media only screen and (max-width: 950px) {
+    .two {
+        background-color: lightgreen;
+    }
+
+@media only screen and (max-width: 800px) {
+    .three {
+        background-color: lightcoral;
+    }
+    
+@media only screen and (max-width: 650px) {
+    .four {
+        background-color: lemonchiffon;
+    }
+    
+@media all and (max-width: 400px) {
+  section {
+    float: none;
+    width: auto;
+  }
+}
