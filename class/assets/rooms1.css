@@ -1,0 +1,85 @@
+html {
+    background: url("web2.png") no-repeat center fixed; 
+    background-size: cover;
+}
+
+a:visited {
+    background-color: cadetblue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.menu:link {
+    background-color: cadetblue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header{
+        color:yellow;
+        font-family: monospace
+    }
+
+
+/*layout stuff*/
+
+div {
+  clear: left;
+}
+
+section {
+  text-align: center;
+  font-family: monospace;
+  font-size: 30px;
+  float: left;
+  width: 30%;
+  height: 50%;
+  border: solid;
+  border-color: white;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-right: 12%px;
+  margin-left: 12%;
+
+}
+
+body {
+    background-color: none;
+}
+
+@media only screen and (max-width: 1050px) {
+    body {
+        background-color: none;
+    }
+
+@media only screen and (max-width: 1050px) {
+    .one {
+        background-color: yellow;
+    }
+    
+@media only screen and (max-width: 950px) {
+    .two {
+        background-color: yellow;
+    }
+
+@media only screen and (max-width: 800px) {
+    .three {
+        background-color: yellow;
+    }
+    
+@media only screen and (max-width: 650px) {
+    .four {
+        background-color: yellow;
+    }
+    
+@media all and (max-width: 400px) {
+  section {
+    float: none;
+    width: auto;
+  }

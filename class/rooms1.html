@@ -1,0 +1,56 @@
+<!DOCTYPE> 
+<html>
+    <head>
+        <meta charset="utf-8">
+         <link rel="stylesheet" href="assets/rooms1.css">
+        <title>In class</title>
+    </head>
+    
+    <header>
+        <h1> The House of ... </h1>
+        
+        <nav>
+            <a class="menu" href="transitioning.html">Transitioning</a>
+            <a class="menu" href="forming.html">Forming</a>
+            <a class="menu" href="settling.html">Settling</a>
+            <a class="menu" href="becoming.html">Becoming</a>
+        </nav>
+    </header>
+    
+        <body> 
+    
+<div class="box.container"> 
+        
+        <section class="one">
+          <br><br><br><br><a href="transitioning.html">16-24</a> 
+        </section>
+        
+        <section class="two">
+        <br><br><br><br> <a href="forming.html">24-28</a>
+        </section>
+        
+        <section class="three">
+        <br><br><br><br>  <a href="settling.html">29-34</a>
+        </section>
+    
+        <section class="four">
+        <br><br><br><br> <a href="becoming.html">35-40</a>
+        </section>
+</div>  
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+    <script> 
+       $(function(){
+           // Create debug element
+           $("body").append("<div style='position:fixed;top:5px;left:5px;' id='viewportwidth'></div>");
+           
+           // Set contents on resizing window
+           $(window).resize(function(){$("#viewportwidth").html($(window).width());});
+           
+           // Trigger resize event
+           $(window).resize();
+       });
+    </script>
+    
+        </body>
+</html>
