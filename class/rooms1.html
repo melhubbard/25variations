@@ -10,10 +10,10 @@
         <h1> The House of ... </h1>
         
         <nav>
-            <a class="menu" href="transitioning.html">Transitioning</a>
-            <a class="menu" href="forming.html">Forming</a>
-            <a class="menu" href="settling.html">Settling</a>
-            <a class="menu" href="becoming.html">Becoming</a>
+            <button class="btn"><a class="menu" href="transitioning.html">Transitioning</a></button>
+            <button class="btn"><a class="menu" href="forming.html">Forming</a></button>
+            <button class="btn"><a class="menu" href="settling.html">Settling</a></button>
+            <button class="btn"><a class="menu" href="becoming.html">Becoming</a></button>
         </nav>
     </header>
     
@@ -38,7 +38,15 @@
         </section>
 </div>  
     
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+<div id="lampadario">
+            <input type="radio" name="switch" value="on" />
+            <input type="radio" name="switch" value="off" checked="checked"/>
+            <label for="switch"></label>
+            <div id="filo"></div>
+            <div id="lampadina">             
+              <div id="sorpresa">
+            
+            
     <script> 
        $(function(){
            // Create debug element
@@ -51,6 +59,6 @@
            $(window).resize();
        });
     </script>
-    
+                </div> </div> </div>
         </body>
 </html>
