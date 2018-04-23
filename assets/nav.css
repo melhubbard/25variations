@@ -1,0 +1,26 @@
+p.intro {
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    font-family: monospace;
+    color: pink;
+    font-size: 100px;
+    margin-top: 200px;
+    margin-right: 150;
+    margin-bottom: 40px;
+    margin-left: 175px;   
+}
+
+p.content {
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    font-family: monospace;
+    color: pink;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-right: 150;
+    margin-bottom: 200px;
+    margin-left: 415px;  
+    float: center;
+}

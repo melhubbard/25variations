@@ -1,18 +1,302 @@
-.btn {
-    font-size: 16px;
-    background-color: cadetblue;
-    border-radius: 8px;
-    font-family: monospace;
+/*transitioning*/
+
+.books1{
+  position: relative;
+  text-align: center;
+  font-family: monospace;
+  color: yellow;
+  font-size: 30px;
+  float: center;
+  height: 50%;
+  border: solid;
+  border-color: yellow;
+  background-image:url(1.png);
+  margin: auto;
+  width: 80%;
+  height: 100%;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+.books2{
+  position: relative;
+  text-align: center;
+  font-family: monospace;
+  color: yellow;
+  font-size: 30px;
+  float: center;
+  height: 50%;
+  border: solid;
+  border-color: yellow;
+  background-image:url(2.png);
+  margin: auto;
+  width: 80%;
+  height: 100%;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+.books3 {
+  position: relative;
+  text-align: center;
+  font-family: monospace;
+  color: yellow;
+  font-size: 30px;
+  float: center;
+  height: 50%;
+  border: solid;
+  border-color: yellow;
+  background-image:url(3.png);
+  margin: auto;
+  width: 80%;
+  height: 100%;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+.books4 {
+  position: relative;
+  text-align: center;
+  font-family: monospace;
+  color: yellow;
+  font-size: 30px;
+  float: center;
+  height: 50%;
+  border: solid;
+  border-color: yellow;
+  background-image:url(4.png);
+  margin: auto;
+  width: 80%;
+  height: 100%;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+.transitioning {
+    background-image:url(universe.jpg);
+}
+
+.shape {
+  height: 40%;
+  width: 40%;
+  background-color: yellow;
+  border-radius: 5px;
+  background: linear-gradient(red, yellow);
+}
+
+.shape1 {
+  margin-top: 5%;
+  margin-bottom: 45%;
+  margin-right: 55%;
+  margin-left: 5%;
+  float: right;
+  background: linear-gradient(red, blue);
+
+}
+
+.shape2 {
+  margin-top: 5%;
+  margin-bottom: 55%;
+  margin-right: 5%;
+  margin-left: 55%;
+  background: linear-gradient(purple, yellow);
+
+}
+
+.shape3 {
+  margin-top: -47%;
+  margin-bottom: 10%;
+  margin-right: 5%;
+  margin-left: 55%;
+  float: right;
+  background: linear-gradient(blue, orange);
+
+}
+
+.shape4 {
+  margin-top: -47%;
+  margin-bottom: 10%;
+  margin-right: 55%;
+  margin-left: 5%;
 }
 
 
-html {
-    background: url("web2.png") no-repeat center fixed; 
+.shape5 {
+  margin-top: 5%;
+  margin-bottom: 45%;
+  margin-right: 55%;
+  margin-left: 5%;
+  float: right;
+    background: white;
+    background: -webkit-linear-gradient(top, #DFE8EC 0%, white 8%) 0 57px;
+    background: -moz-linear-gradient(top, #DFE8EC 0%, white 8%) 0 57px;
+    background: linear-gradient(top, #DFE8EC 0%, white 8%) 0 57px;
+    -webkit-background-size: 100% 30px;
+    -moz-background-size: 100% 30px;
+    -ms-background-size: 100% 30px;
+    background-size: 100% 30px;
+}
+
+.shape6 {
+  margin-top: 5%;
+  margin-bottom: 55%;
+  margin-right: 5%;
+  margin-left: 55%;
+    background: white;
+    background: -webkit-linear-gradient(top, #DFE8EC 0%, white 8%) 0 57px;
+    background: -moz-linear-gradient(top, #DFE8EC 0%, white 8%) 0 57px;
+    background: linear-gradient(top, #DFE8EC 0%, white 8%) 0 57px;
+    -webkit-background-size: 100% 30px;
+    -moz-background-size: 100% 30px;
+    -ms-background-size: 100% 30px;
+    background-size: 100% 30px;
+}
+
+.shape7 {
+  margin-top: -47%;
+  margin-bottom: 10%;
+  margin-right: 5%;
+  margin-left: 55%;
+  float: right;
+    background: white;
+    background: -webkit-linear-gradient(top, #DFE8EC 0%, white 8%) 0 57px;
+    background: -moz-linear-gradient(top, #DFE8EC 0%, white 8%) 0 57px;
+    background: linear-gradient(top, #DFE8EC 0%, white 8%) 0 57px;
+    -webkit-background-size: 100% 30px;
+    -moz-background-size: 100% 30px;
+    -ms-background-size: 100% 30px;
+    background-size: 100% 30px;
+}
+
+.shape8 {
+  margin-top: -47%;
+  margin-bottom: 10%;
+  margin-right: 55%;
+  margin-left: 5%;
+    background: white;
+    background: -webkit-linear-gradient(top, #DFE8EC 0%, white 8%) 0 57px;
+    background: -moz-linear-gradient(top, #DFE8EC 0%, white 8%) 0 57px;
+    background: linear-gradient(top, #DFE8EC 0%, white 8%) 0 57px;
+    -webkit-background-size: 100% 30px;
+    -moz-background-size: 100% 30px;
+    -ms-background-size: 100% 30px;
+    background-size: 100% 30px;
+}
+
+
+.shape9 {
+  margin-top: 5%;
+  margin-bottom: 45%;
+  margin-right: 55%;
+  margin-left: 5%;
+  float: right;
+  background-image:url(foot.png)
+}
+
+.shape10 {
+  margin-top: 5%;
+  margin-bottom: 55%;
+  margin-right: 5%;
+  margin-left: 55%;
+  background-image:url(foot.png)
+
+}
+
+.shape11 {
+  margin-top: -47%;
+  margin-bottom: -30%;
+  margin-right: 5%;
+  margin-left: 55%;
+  float: right;
+  background-image:url(foot.png)
+}
+
+.shape12 {
+  margin-top: -47%;
+  margin-bottom: -30%;
+  margin-right: 55%;
+  margin-left: 5%;
+  background-image:url(foot.png)
+
+}
+
+.shape13 {
+  margin-top: 5%;
+  margin-bottom: 45%;
+  margin-right: 55%;
+  margin-left: 5%;
+  float: right;
+  background-image:url(money.png)
+}
+
+.shape14 {
+  margin-top: 5%;
+  margin-bottom: 55%;
+  margin-right: 5%;
+  margin-left: 55%;
+  background-image:url(money.png)
+
+}
+
+.shape15 {
+  margin-top: -47%;
+  margin-bottom: -30%;
+  margin-right: 5%;
+  margin-left: 55%;
+  float: right;
+  background-image:url(money.png)
+
+}
+
+.shape16 {
+  margin-top: -47%;
+  margin-bottom: -30%;
+  margin-right: 55%;
+  margin-left: 5%;
+  background-image:url(money.png)
+
+}
+
+.opening {
+    background-color: black;
+}
+
+.light{
+    text-align: center;
+    margin-top: 440px;
+    margin-right: 50px;
+    margin-bottom:auto;
+    margin-left: 50px;
+    color: aliceblue;
+}
+
+nav {
+    display: inline-block;
+    align-content: center;
+    align-items: center;
+}
+
+.btn {
+    font-size: 16px;
+    background-color: pink;
+    border-radius: 8px;
+    font-family: monospace;
+    align-items: center;
+}
+
+
+.rooms {
+    /*background: url("web2.png") no-repeat center fixed; */
+    background-image: url("web2.png");
     background-size: cover;
 }
 
+.opening{
+    background-color: black;
+}
+
 a:visited {
-    background-color: cadetblue;
+    background-color: pink;
     color: white;
     padding: 14px 25px;
     text-align: center;
@@ -41,23 +325,32 @@ div {
   clear: left;
 }
 
+
+
+/*lamp*/
+
 section {
+  position: relative;
   text-align: center;
   font-family: monospace;
+  color: yellow;
   font-size: 30px;
   float: left;
   width: 30%;
   height: 50%;
   border: solid;
-  border-color: white;
+  border-color: yellow;
   margin-top: 10%;
   margin-bottom: 10%;
   margin-right: 12%px;
   margin-left: 12%;
-
+  background-color: black;
 }
 
-               
+.opening {
+    background-color: black;
+}    
+
             a {
                 color: rgba(255,255,255,0.6);
             }
@@ -214,6 +507,8 @@ section {
                 bottom: 30%;
                 padding: 0 3%;
                 z-index:1;
+                color: white;
+                font-family:monospace;
             }
             #shadow {
                 position: fixed;
@@ -348,32 +643,35 @@ section {
 
 
 body {
-    background-color: none;
+    background-image: none
 }
+
+/*page closing*/
 
 @media only screen and (max-width: 1050px) {
     body {
-        background-color: none;
+        background-color: black;
     }
 
 @media only screen and (max-width: 1050px) {
     .one {
-        background-color: yellow;
+        background-color: black;
     }
+
     
 @media only screen and (max-width: 950px) {
     .two {
-        background-color: yellow;
+        background-color: black;
     }
 
 @media only screen and (max-width: 800px) {
     .three {
-        background-color: yellow;
+        background-color: black;
     }
     
 @media only screen and (max-width: 650px) {
     .four {
-        background-color: yellow;
+        background-color: black;
     }
     
 @media all and (max-width: 400px) {
@@ -381,3 +679,5 @@ body {
     float: none;
     width: auto;
   }
+    
+
