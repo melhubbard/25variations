@@ -1,0 +1,164 @@
+body{
+  background: ;
+}
+
+.box{
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  width: 600px;
+  height: 420px;
+  background: none;
+  border: none;
+}
+
+.head{
+  position: absolute;
+  top: 16.5%;
+  left: 25%;
+  width: 50%;
+  height: 67%;
+  background: #FAEBD7;
+  border-radius: 100%;
+}
+
+.head-copy{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #FAEBD7;
+  border-radius: 40%;
+  z-index: 2;
+}
+
+.ear-left{
+  position: absolute;
+  width: 10%;
+  height: 15%;
+  left: -3%;
+  top: 25%;
+  background: #FAEBD7;
+  border-radius: 50%;
+  z-index: 1;
+}
+.ear-right{
+  position: absolute;
+  width: 10%;
+  height: 15%;
+  right: -3%;
+  top: 25%;
+  background: #FAEBD7;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.eye-left{
+  position: absolute;
+  background: black;
+  width: 15%;
+  height: 15%;
+  top: 35%;
+  left: 25%;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+.eye-right{
+  position: absolute;
+  background: black;
+  width: 15%;
+  height: 15%;
+  top: 35%;
+  right: 25%;
+  border-radius: 50%;
+  z-index: 2;
+}
+.pupil{
+  position: absolute;
+  width: 28%;
+  height: 30%;
+  top: 35%;
+  left: 36%;
+  border-radius: 50%;
+  background: white;
+}
+
+.nosering{
+  position: absolute;
+  width: 3%;
+  height: 3%;
+  top: 53%;
+  left: 46%;
+  border-radius: 50%;
+  background: #27354A;
+  z-index: 5;
+}
+
+.nostril1{
+  position: absolute;
+  width: 3%;
+  height: 3%;
+  top: 53%;
+  left: 46%;
+  border-radius: 50%;
+  background: #27354A;
+  z-index: 5;
+}
+
+.nostril2{
+  position: absolute;
+  width: 3%;
+  height: 3%;
+  top: 53%;
+  left: 53%;
+  border-radius: 50%;
+  background: #27354A;
+  z-index: 5;
+}
+
+
+.nose{
+  position: absolute;
+  background: pink;
+  width: 13%;
+  height: 13%;
+  left: 44%;
+  top: 48%;
+  border-radius: 50px;
+  z-index: 4;
+}
+
+
+.hair-left{
+  position: absolute;
+  top: -18%;
+  left: 10%;
+  width: 50%;
+  height: 40%;
+  background:  black;
+  z-index: 3;
+  border-radius: 100px;
+}
+
+.mouth{
+  position: absolute;
+  background: black;
+  width: 10%;
+  height:14%;
+  left: 45%;
+  top: 70%;
+  border-radius: 100%;
+  z-index: 4;
+  border: solid
+}
+
+h1 {
+    align-content: center;
+    text-align: center;
+}
+
+body {
+     align-content: center;
+    text-align: center;
+}
